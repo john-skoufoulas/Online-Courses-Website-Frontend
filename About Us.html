@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EASY LEARN</title>
+    <link rel="stylesheet" href="./StyleSheet1.css">
+</head>
+
+<body>
+    <header class="header-layout">
+        <a href="./index.html"><img src="./assets/easy_lean_logo.png" alt="logo img"></a>
+      
+        <nav id='nav'>
+            <ul>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./Subjects.html">Subjects</a></li>
+                <li><a href="./About%20Us.html">About Us</a></li>
+                <li><a href="./Contact%20Us.html">Contact Us</a></li>
+            </ul>
+            <a id="register-button" href="./Register.html">Register</a>
+        </nav>
+        <button class="toggle-button btn-sm" onClick="toggleMenu()">Open</button>
+    </header>
+
+    <aside id="ads">
+        <figure>
+            <img src="./assets/ad1.jpg" alt="advertisment">
+            <figcaption>advertisment material</figcaption>
+        </figure>
+    </aside>
+
+    <main>
+        <h1>Our Team</h1>
+        <div class="member-card">
+            <Article>
+                <img class="float-left" src="./assets/avatar1.jpg" alt="member #1">
+                <h1>Dimitris Aristeidopoulos</h1>
+                <p> I have a clear, logical mind with a practical approach to problem-solving and a
+                     drive to see things through to completion. I have more than 2 years of experience 
+                     in managing and leading teams across multiple sectors. I am eager to learn, I 
+                     enjoy overcoming challenges, and I have a genuine interest in Business Management 
+                     and making organisations successful.</p>
+            </Article>
+            <hr>
+            <Article>
+                <img class="float-right" src="./assets/avatar2.jpg" alt="member #1">
+                <h1>John Skoufoulas</h1>
+                <p> I am a highly competent IT professional with a proven track record in designing websites, 
+                    networking and managing databases. I have strong technical skills as well as excellent 
+                    interpersonal skills, enabling me to interact with a wide range of clients. I am eager 
+                    to be challenged in order to grow and further improve my IT skills. My greatest passion 
+                    is in life is using my technical know-how to benefit other people and organisations. </p>
+            </Article>
+        </div>
+    </main>
+    
+    <footer>
+        <ul>
+            <li>
+                <h1>Contact Info</h1>
+                <address>
+                    <ul>
+                        <li>+30-1234567891</li>
+                        <li>easylearn@gmail.com</li>
+                    </ul>
+                </address>
+            </li>
+            <li id="social-media">
+                <h1>Follow Us on</h1>
+                <a href="https://www.facebook.com/"><img src="./assets/fb_icon.png" alt="fb icon"></a>
+                <a href="https://www.youtube.com/"><img src="./assets/yt_icon.png" alt="ut icon"></a>
+                <a href="https://www.instagram.com/"><img src="./assets/ig_icon.png" alt="ut icon"></a>
+            </li>
+            <li>
+                <h1>Lets Talk</h1>
+                <form action="" method="get">
+                    <ul>
+                        <li>
+                            <label for="email">Your email: </label>
+                            <input type="email" id="email" name="user-email">
+                        </li>
+                        <li>
+                            Your Message:<br>
+                            <textarea name="user message" id="small-message" cols="30" rows="3"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" value="submit" />
+                </form>
+                <br>
+                <br>
+                Or... go to our <a href="./Contact%20Us.html">Contact Form</a> for more options!
+            </li>
+        </ul>
+        <p id="copyrights">© 2021 Easy Learn | All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="./menu.js"></script>

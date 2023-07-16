@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EASY LEARN</title>
+    <link rel="stylesheet" href="./StyleSheet1.css">
+</head>
+
+<body>
+    <header class="header-layout">
+        <a href="./index.html"><img src="./assets/easy_lean_logo.png" alt="logo img"></a>
+      
+        <nav id='nav'>
+            <ul>
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./Subjects.html">Subjects</a></li>
+                <li><a href="./About%20Us.html">About Us</a></li>
+                <li><a href="./Contact%20Us.html">Contact Us</a></li>
+            </ul>
+            <a id="register-button" href="./Register.html">Register</a>
+        </nav>
+        <button class="toggle-button btn-sm" onClick="toggleMenu()">Open</button>
+    </header>
+
+    <aside id="ads">
+        <figure>
+            <img src="./assets/ad1.jpg" alt="advertisment">
+            <figcaption>advertisment material</figcaption>
+        </figure>
+    </aside>
+
+    <main>
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="" method="get">
+                <ul>
+                    <li>
+                        <label for="first-name">First Name: </label><br>
+                        <input type="text" id="first-name" name="first_name" minlength="3" maxlength="20" required>
+                    </li>
+                    <li>
+                        <label for="last-name">Last Name: </label><br>
+                        <input type="text" id="last-name" name="last_name" minlength="3" maxlength="20" required>
+                    </li>
+                    <li>
+                        <label for="profession">Profession: </label><br>
+                        <input type="text" id="profession" name="profession">
+                    </li>
+                    <li>
+                        <label for="email">Your email: </label><br>
+                        <input type="email" id="email" name="email" autocomplete="email">
+                    </li>
+                </ul>
+                <textarea name="user message" id="large-message" cols="70" rows="10"></textarea>
+                <input class="submit-btn" type="submit" value="submit" />
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <h1>Contact Info</h1>
+                <address>
+                    <ul>
+                        <li>+30-1234567891</li>
+                        <li>easylearn@gmail.com</li>
+                    </ul>
+                </address>
+            </li>
+            <li>
+                <h1>Lets Talk</h1>
+            </li>
+            <li id="social-media">
+                <h1>Follow Us on</h1>
+                <a href="https://www.facebook.com/"><img src="./assets/fb_icon.png" alt="fb icon"></a>
+                <a href="https://www.youtube.com/"><img src="./assets/yt_icon.png" alt="ut icon"></a>
+                <a href="https://www.instagram.com/"><img src="./assets/ig_icon.png" alt="ut icon"></a>
+            </li>
+        </ul>
+        <p id="copyrights">© 2021 Easy Learn | All rights reserved</p>
+    </footer>
+</body>
+
+</html>
+
+<script src="./menu.js"></script>

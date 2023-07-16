@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Easy Learn</title>
+    <link rel="stylesheet" href="../StyleSheet1.css">
+</head>
+
+<body id="body-layout">
+    <header class="header-layout">
+        <a href="../index.html"><img src="../assets/easy_lean_logo.png" alt="logo img"></a>
+      
+        <nav id='nav'>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../Subjects.html">Subjects</a></li>
+                <li><a href="../About%20Us.html">About Us</a></li>
+                <li><a href="../Contact%20Us.html">Contact Us</a></li>
+            </ul>
+            <a id="register-button" href="../Register.html">Register</a>
+        </nav>
+        <button class="toggle-button btn-sm" onClick="toggleMenu()">Open</button>
+    </header>
+    <div class="right-layout"></div>
+    <aside class="left-layout" id="ads">
+        <figure>
+            <img src="../assets/ad1.jpg" alt="advertisment">
+            <figcaption>advertisment material</figcaption>
+        </figure>
+    </aside>
+    <main class="clear-float">
+        <h1>Web Development</h1>
+        <p>Computer science is the study of computers and computing as well as their
+            theoretical and practical applications. Computer science applies the principles of mathematics,
+            engineering, and logic to a plethora of functions, including algorithm formulation, software and
+            hardware development, and artificial intelligence.</p>
+
+
+        <section id="courses">
+            <h1>Popular Courses</h1>
+            <ul class='row-grid'>
+                <li>
+                    <article class='course-card'>
+                        <a href="">
+                            <img src="../assets/Courses/nodejs-course.jpeg" alt="">
+                            <h1>The Complete Node.js Developer Course (3rd Edition)</h1>
+                            <p class="no-bold">Go from Beginner to Advanced by using Node.js, MongoDB, Express and
+                                Mongoose to build web applications!
+                            </p>
+                            <h1>What you'll learn:</h1>
+                            <ol type="1">
+                                <li>Build a web app with Node.js and Express</li>
+                                <li>Use Mongoose to create schemas</li>
+                                <li>Learn about some NPM modules</li>
+                                <li>Send emails from Node.js application using nodemailer</li>
+                            </ol>
+                            <a class="btn-sm"
+                                href="https://www.udemy.com/course/learn-nodejs-by-building-an-employee-to-business-rating-app/">Udemy
+                                similar class</a>
+                            <b>9.99$</b>
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class='course-card'>
+                        <a href="">
+                            <img src="https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg" alt="">
+                            <h1>The Web Developer Bootcamp 2022</h1>
+                            <p class="no-bold">COMPLETELY REDONE - The only course you need to learn web development -
+                                HTML, CSS, JS, Node, and More!
+                            </p>
+                            <h1>What you'll learn:</h1>
+                            <ol type="1">
+                                <li>The ins and outs of HTML5, CSS3, and Modern JavaScript for 2021</li>
+                                <li>Create responsive, accessible, and beautiful layouts</li>
+                                <li>Recognize and prevent common security exploits like SQL-Injection & XSS</li>
+                                <li>Create a blog application from scratch using Node, Express, and MongoDB.</li>
+                            </ol>
+                            <a class="btn-sm"
+                                href="https://www.udemy.com/course/the-web-developer-bootcamp/">Udemy
+                                similar class</a>
+                            <b>89.99$</b>
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class='course-card'>
+                        <a href="">
+                            <img src="https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg" alt="">
+                            <h1>The Complete JavaScript Course 2022: From Zero to Expert!</h1>
+                            <p class="no-bold">The modern JavaScript course for everyone! Master JavaScript with
+                                projects, challenges and theory. Many courses in one!
+                            </p>
+                            <h1>What you'll learn:</h1>
+                            <ol type="1">
+                                <li>Become an advanced, confident, and modern JavaScript developer from scratch</li>
+                                <li> Build 6 beautiful real-world projects for your portfolio (not boring toy apps)</li>
+                                <li> Become job-ready by understanding how JavaScript really works behind the scenes
+                                </li>
+                                <li> How to think and work like a developer: problem-solving, researching, workflows
+                                </li>
+                            </ol>
+                            <a class="btn-sm"
+                                href="https://www.udemy.com/course/the-complete-javascript-course/">Udemy
+                                similar class</a>
+                            <b>109.99$</b>
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class='course-card'>
+                        <a href="">
+                            <img src="https://img-c.udemycdn.com/course/480x270/756150_c033_2.jpg" alt="">
+                            <h1>Angular - The Complete Guide (2022 Edition) </h1>
+                            <p class="no-bold"> Master Angular 13 (formerly "Angular 2") and build awesome, reactive web
+                                apps with the successor of Angular.js
+                            </p>
+                            <h1>What you'll learn:</h1>
+                            <ol type="1">
+                                <li>Build a web app with Node.js and Express</li>
+                                <li>Use Mongoose to create schemas</li>
+                                <li>Learn about some NPM modules</li>
+                                <li>Send emails from Node.js application using nodemailer</li>
+                            </ol>
+                            <a class="btn-sm"
+                                href="https://www.udemy.com/course/the-complete-guide-to-angular-2/">Udemy
+                                similar class</a>
+                            <b>9.99$</b>
+                        </a>
+                    </article>
+                </li>
+                <li>
+                    <article class='course-card'>
+                        <a href="">
+                            <img src="https://img-c.udemycdn.com/course/480x270/764164_de03_2.jpg" alt="">
+                            <h1>The Complete Web Developer Course 2.0</h1>
+                            <p class="no-bold"> Learn Web Development by building 25 websites and mobile apps using
+                                HTML, CSS, Javascript, PHP, Python, MySQL & more!
+                            </p>
+                            <h1>What you'll learn:</h1>
+                            <ol type="1">
+                                <li>Build websites and webapps </li>
+                                <li> Build HTML-based mobile apps </li>
+                                <li> Get a job as a junior web developer </li>
+                                <li> Bid for projects on freelance websites </li>
+                            </ol>
+                            <a class="btn-sm"
+                                href="https://www.udemy.com/course/the-complete-web-developer-course-2/">Udemy
+                                similar class</a>
+                            <b>109.99$</b>
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+
+
+    </main>
+</body>
+
+<footer>
+    <ul>
+        <li>
+            <h1>Contact Info</h1>
+            <address>
+                <ul>
+                    <li>+30-1234567891</li>
+                    <li>easylearn@gmail.com</li>
+                </ul>
+            </address>
+        </li>
+        <li>
+            <h1>Lets Talk</h1>
+            <form></form>
+        </li>
+        <li id="socialMedia">
+            <h1>Follow us on:</h1>
+            <a href="https://www.facebook.com/"><img src="../assets/fb_icon.png" alt="fb icon"></a>
+            <a href="https://www.youtube.com/"><img src="../assets/yt_icon.png" alt="ut icon"></a>
+            <a href="https://www.instagram.com/"><img src="../assets/ig_icon.png" alt="ut icon"></a>
+        </li>
+    </ul>
+    <p id="copyrights">© 2021 Easy Learn | All rights reserved</p>
+</footer>
+
+</html>
+
+<script src="../menu.js"></script>
